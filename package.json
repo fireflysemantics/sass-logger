@@ -5,5 +5,12 @@
   "main": "index.scss",
   "keywords": ["SASS", "Logging"],
   "author": "Ole Ersoy",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fireflysemantics/sass-logger/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fireflysemantics/sass-logger.git"
+  }
 }
