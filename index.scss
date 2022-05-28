@@ -1,0 +1,13 @@
+$tab: '\0009';
+$newline: '\000D\000A';
+
+@function pretty-map($map, $s: '') {
+  @each $key, $val in $map {
+    @if type-of($val) == map {
+      $s: '#{$s} #{$newline} #{$key}: ( #{pretty-map($val)} #{$newline} ), ';
+    } @else {
+      $s: '#{$s} #{$newline} #{$tab} #{$key}: #{$val}, ';
+    }
+  } // each
+  @return $s;
+}

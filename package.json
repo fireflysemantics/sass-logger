@@ -1,0 +1,9 @@
+{
+  "name": "@fireflysemantics/sass-logger",
+  "version": "1.0.0",
+  "description": "SASS Logging Utilities",
+  "main": "index.scss",
+  "keywords": ["SASS", "Logging"],
+  "author": "Ole Ersoy",
+  "license": "MIT"
+}
